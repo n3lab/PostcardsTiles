@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F916E9EFB791FF63380ACD /* Pods_PostcardsTiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28152C1A1CB3E57DA4F13B86 /* Pods_PostcardsTiles.framework */; };
+		860B602A999EAC7E98821B35 /* Pods_PostcardsTiles_PostcardsTilesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70265737E1209CAEC64E0BBD /* Pods_PostcardsTiles_PostcardsTilesUITests.framework */; };
+		CC4CEC0DBB34A2FB98B836B0 /* Pods_PostcardsTilesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E82BEC7C38DB73EA8F88D16 /* Pods_PostcardsTilesTests.framework */; };
 		FE3FDE552688CEE7006644F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE542688CEE7006644F9 /* AppDelegate.swift */; };
 		FE3FDE572688CEE7006644F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE562688CEE7006644F9 /* SceneDelegate.swift */; };
-		FE3FDE592688CEE7006644F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE582688CEE7006644F9 /* ViewController.swift */; };
 		FE3FDE5C2688CEE7006644F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDE5A2688CEE7006644F9 /* Main.storyboard */; };
 		FE3FDE5E2688CEEB006644F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDE5D2688CEEB006644F9 /* Assets.xcassets */; };
 		FE3FDE612688CEEB006644F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDE5F2688CEEB006644F9 /* LaunchScreen.storyboard */; };
 		FE3FDE6C2688CEEB006644F9 /* PostcardsTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE6B2688CEEB006644F9 /* PostcardsTilesTests.swift */; };
 		FE3FDE772688CEEB006644F9 /* PostcardsTilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE762688CEEB006644F9 /* PostcardsTilesUITests.swift */; };
+		FE3FDE892688D12B006644F9 /* PostcardsCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE882688D12B006644F9 /* PostcardsCatalogViewController.swift */; };
+		FE3FDE8B2688D15A006644F9 /* PostcardsCatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE8A2688D15A006644F9 /* PostcardsCatalogViewModel.swift */; };
+		FE3FDE8D2688D1FB006644F9 /* PostcardsCatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE8C2688D1FB006644F9 /* PostcardsCatalogService.swift */; };
+		FE3FDE8F2688DB0B006644F9 /* PostcardCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE8E2688DB0B006644F9 /* PostcardCategory.swift */; };
+		FE3FDE912688E0D7006644F9 /* Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDE902688E0D7006644F9 /* Postcard.swift */; };
+		FEA18468268A059E001337A7 /* PostcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA18466268A059E001337A7 /* PostcardCell.swift */; };
+		FEDEB8A72691134600A8D574 /* CollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDEB8A62691134600A8D574 /* CollectionViewWaterfallLayout.swift */; };
+		FEDEB8AA269121B100A8D574 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDEB8A9269121B100A8D574 /* UIColor+Extension.swift */; };
+		FEDEB8AE269251B200A8D574 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEDEB8AD269251B200A8D574 /* Roboto-Regular.ttf */; };
+		FEDEB8B22692541900A8D574 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDEB8B12692541900A8D574 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28152C1A1CB3E57DA4F13B86 /* Pods_PostcardsTiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostcardsTiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3B03D4CEAA78762C6887E5 /* Pods-PostcardsTiles-PostcardsTilesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTiles-PostcardsTilesUITests.debug.xcconfig"; path = "Target Support Files/Pods-PostcardsTiles-PostcardsTilesUITests/Pods-PostcardsTiles-PostcardsTilesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70265737E1209CAEC64E0BBD /* Pods_PostcardsTiles_PostcardsTilesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostcardsTiles_PostcardsTilesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8868D60555F2B29FE1BED939 /* Pods-PostcardsTiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTiles.debug.xcconfig"; path = "Target Support Files/Pods-PostcardsTiles/Pods-PostcardsTiles.debug.xcconfig"; sourceTree = "<group>"; };
+		947EEAE22B5487131949F29A /* Pods-PostcardsTilesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTilesTests.release.xcconfig"; path = "Target Support Files/Pods-PostcardsTilesTests/Pods-PostcardsTilesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E82BEC7C38DB73EA8F88D16 /* Pods_PostcardsTilesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostcardsTilesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67E7EF132A043AC478481F0 /* Pods-PostcardsTiles-PostcardsTilesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTiles-PostcardsTilesUITests.release.xcconfig"; path = "Target Support Files/Pods-PostcardsTiles-PostcardsTilesUITests/Pods-PostcardsTiles-PostcardsTilesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE90C97D779A1C0CD26DA108 /* Pods-PostcardsTilesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTilesTests.debug.xcconfig"; path = "Target Support Files/Pods-PostcardsTilesTests/Pods-PostcardsTilesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4A6EEF3B9DD870C19B58F7 /* Pods-PostcardsTiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardsTiles.release.xcconfig"; path = "Target Support Files/Pods-PostcardsTiles/Pods-PostcardsTiles.release.xcconfig"; sourceTree = "<group>"; };
 		FE3FDE512688CEE7006644F9 /* PostcardsTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostcardsTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3FDE542688CEE7006644F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE3FDE562688CEE7006644F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE3FDE582688CEE7006644F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE3FDE5B2688CEE7006644F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE3FDE5D2688CEEB006644F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3FDE602688CEEB006644F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,16 @@
 		FE3FDE722688CEEB006644F9 /* PostcardsTilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardsTilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3FDE762688CEEB006644F9 /* PostcardsTilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardsTilesUITests.swift; sourceTree = "<group>"; };
 		FE3FDE782688CEEB006644F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3FDE882688D12B006644F9 /* PostcardsCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardsCatalogViewController.swift; sourceTree = "<group>"; };
+		FE3FDE8A2688D15A006644F9 /* PostcardsCatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardsCatalogViewModel.swift; sourceTree = "<group>"; };
+		FE3FDE8C2688D1FB006644F9 /* PostcardsCatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardsCatalogService.swift; sourceTree = "<group>"; };
+		FE3FDE8E2688DB0B006644F9 /* PostcardCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardCategory.swift; sourceTree = "<group>"; };
+		FE3FDE902688E0D7006644F9 /* Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcard.swift; sourceTree = "<group>"; };
+		FEA18466268A059E001337A7 /* PostcardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardCell.swift; sourceTree = "<group>"; };
+		FEDEB8A62691134600A8D574 /* CollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		FEDEB8A9269121B100A8D574 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FEDEB8AD269251B200A8D574 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FEDEB8B12692541900A8D574 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F916E9EFB791FF63380ACD /* Pods_PostcardsTiles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4CEC0DBB34A2FB98B836B0 /* Pods_PostcardsTilesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +102,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860B602A999EAC7E98821B35 /* Pods_PostcardsTiles_PostcardsTilesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85EE8803BD6FD6BF3BA79EAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8868D60555F2B29FE1BED939 /* Pods-PostcardsTiles.debug.xcconfig */,
+				FC4A6EEF3B9DD870C19B58F7 /* Pods-PostcardsTiles.release.xcconfig */,
+				6E3B03D4CEAA78762C6887E5 /* Pods-PostcardsTiles-PostcardsTilesUITests.debug.xcconfig */,
+				C67E7EF132A043AC478481F0 /* Pods-PostcardsTiles-PostcardsTilesUITests.release.xcconfig */,
+				EE90C97D779A1C0CD26DA108 /* Pods-PostcardsTilesTests.debug.xcconfig */,
+				947EEAE22B5487131949F29A /* Pods-PostcardsTilesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86895A328820ED30AAA44631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28152C1A1CB3E57DA4F13B86 /* Pods_PostcardsTiles.framework */,
+				70265737E1209CAEC64E0BBD /* Pods_PostcardsTiles_PostcardsTilesUITests.framework */,
+				9E82BEC7C38DB73EA8F88D16 /* Pods_PostcardsTilesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE3FDE482688CEE7006644F9 = {
 			isa = PBXGroup;
 			children = (
+				FE3FDE842688CFF2006644F9 /* Model */,
 				FE3FDE532688CEE7006644F9 /* PostcardsTiles */,
+				FE3FDE852688CFFE006644F9 /* Services */,
+				FEDEB8A42691128900A8D574 /* UI */,
+				FEDEB8A82691218A00A8D574 /* Misc */,
+				FE3FDE862688D005006644F9 /* Resources */,
 				FE3FDE6A2688CEEB006644F9 /* PostcardsTilesTests */,
 				FE3FDE752688CEEB006644F9 /* PostcardsTilesUITests */,
 				FE3FDE522688CEE7006644F9 /* Products */,
+				85EE8803BD6FD6BF3BA79EAE /* Pods */,
+				86895A328820ED30AAA44631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +162,10 @@
 		FE3FDE532688CEE7006644F9 /* PostcardsTiles */ = {
 			isa = PBXGroup;
 			children = (
+				FE3FDE872688D0CD006644F9 /* PostcardsCatalog */,
 				FE3FDE542688CEE7006644F9 /* AppDelegate.swift */,
 				FE3FDE562688CEE7006644F9 /* SceneDelegate.swift */,
-				FE3FDE582688CEE7006644F9 /* ViewController.swift */,
 				FE3FDE5A2688CEE7006644F9 /* Main.storyboard */,
-				FE3FDE5D2688CEEB006644F9 /* Assets.xcassets */,
 				FE3FDE5F2688CEEB006644F9 /* LaunchScreen.storyboard */,
 				FE3FDE622688CEEB006644F9 /* Info.plist */,
 			);
@@ -128,6 +190,83 @@
 			path = PostcardsTilesUITests;
 			sourceTree = "<group>";
 		};
+		FE3FDE842688CFF2006644F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE3FDE8E2688DB0B006644F9 /* PostcardCategory.swift */,
+				FE3FDE902688E0D7006644F9 /* Postcard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE3FDE852688CFFE006644F9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE3FDE8C2688D1FB006644F9 /* PostcardsCatalogService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE3FDE862688D005006644F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEB8AC269251A300A8D574 /* Fonts */,
+				FE3FDE5D2688CEEB006644F9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE3FDE872688D0CD006644F9 /* PostcardsCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				FEA18465268A0566001337A7 /* Cells */,
+				FE3FDE882688D12B006644F9 /* PostcardsCatalogViewController.swift */,
+				FE3FDE8A2688D15A006644F9 /* PostcardsCatalogViewModel.swift */,
+			);
+			path = PostcardsCatalog;
+			sourceTree = "<group>";
+		};
+		FEA18465268A0566001337A7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEA18466268A059E001337A7 /* PostcardCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEDEB8A42691128900A8D574 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEB8A5269112A900A8D574 /* CollectionView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FEDEB8A5269112A900A8D574 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEB8A62691134600A8D574 /* CollectionViewWaterfallLayout.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		FEDEB8A82691218A00A8D574 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEB8A9269121B100A8D574 /* UIColor+Extension.swift */,
+				FEDEB8B12692541900A8D574 /* UIFont+Extension.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		FEDEB8AC269251A300A8D574 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEB8AD269251B200A8D574 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE3FDE7B2688CEEB006644F9 /* Build configuration list for PBXNativeTarget "PostcardsTiles" */;
 			buildPhases = (
+				7CC7EEC97CBE4A3B79A1E809 /* [CP] Check Pods Manifest.lock */,
 				FE3FDE4D2688CEE7006644F9 /* Sources */,
 				FE3FDE4E2688CEE7006644F9 /* Frameworks */,
 				FE3FDE4F2688CEE7006644F9 /* Resources */,
+				DE0B72D4F78C3D4010D052A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE3FDE7E2688CEEB006644F9 /* Build configuration list for PBXNativeTarget "PostcardsTilesTests" */;
 			buildPhases = (
+				9103D0A3E80DC744A1E8557C /* [CP] Check Pods Manifest.lock */,
 				FE3FDE632688CEEB006644F9 /* Sources */,
 				FE3FDE642688CEEB006644F9 /* Frameworks */,
 				FE3FDE652688CEEB006644F9 /* Resources */,
@@ -170,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE3FDE812688CEEB006644F9 /* Build configuration list for PBXNativeTarget "PostcardsTilesUITests" */;
 			buildPhases = (
+				46E37AD1475B5F1D7C09B8AB /* [CP] Check Pods Manifest.lock */,
 				FE3FDE6E2688CEEB006644F9 /* Sources */,
 				FE3FDE6F2688CEEB006644F9 /* Frameworks */,
 				FE3FDE702688CEEB006644F9 /* Resources */,
+				2BBA9D140D1B3796FE0CD194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +377,7 @@
 			files = (
 				FE3FDE612688CEEB006644F9 /* LaunchScreen.storyboard in Resources */,
 				FE3FDE5E2688CEEB006644F9 /* Assets.xcassets in Resources */,
+				FEDEB8AE269251B200A8D574 /* Roboto-Regular.ttf in Resources */,
 				FE3FDE5C2688CEE7006644F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +398,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BBA9D140D1B3796FE0CD194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles-PostcardsTilesUITests/Pods-PostcardsTiles-PostcardsTilesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles-PostcardsTilesUITests/Pods-PostcardsTiles-PostcardsTilesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles-PostcardsTilesUITests/Pods-PostcardsTiles-PostcardsTilesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E37AD1475B5F1D7C09B8AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardsTiles-PostcardsTilesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC7EEC97CBE4A3B79A1E809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardsTiles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9103D0A3E80DC744A1E8557C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardsTilesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0B72D4F78C3D4010D052A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles/Pods-PostcardsTiles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles/Pods-PostcardsTiles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostcardsTiles/Pods-PostcardsTiles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE3FDE4D2688CEE7006644F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3FDE592688CEE7006644F9 /* ViewController.swift in Sources */,
+				FE3FDE912688E0D7006644F9 /* Postcard.swift in Sources */,
+				FE3FDE892688D12B006644F9 /* PostcardsCatalogViewController.swift in Sources */,
+				FEDEB8A72691134600A8D574 /* CollectionViewWaterfallLayout.swift in Sources */,
+				FE3FDE8F2688DB0B006644F9 /* PostcardCategory.swift in Sources */,
 				FE3FDE552688CEE7006644F9 /* AppDelegate.swift in Sources */,
+				FE3FDE8D2688D1FB006644F9 /* PostcardsCatalogService.swift in Sources */,
+				FEA18468268A059E001337A7 /* PostcardCell.swift in Sources */,
+				FE3FDE8B2688D15A006644F9 /* PostcardsCatalogViewModel.swift in Sources */,
 				FE3FDE572688CEE7006644F9 /* SceneDelegate.swift in Sources */,
+				FEDEB8AA269121B100A8D574 /* UIColor+Extension.swift in Sources */,
+				FEDEB8B22692541900A8D574 /* UIFont+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +689,7 @@
 		};
 		FE3FDE7C2688CEEB006644F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8868D60555F2B29FE1BED939 /* Pods-PostcardsTiles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +709,7 @@
 		};
 		FE3FDE7D2688CEEB006644F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4A6EEF3B9DD870C19B58F7 /* Pods-PostcardsTiles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +729,7 @@
 		};
 		FE3FDE7F2688CEEB006644F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE90C97D779A1C0CD26DA108 /* Pods-PostcardsTilesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +752,7 @@
 		};
 		FE3FDE802688CEEB006644F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947EEAE22B5487131949F29A /* Pods-PostcardsTilesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +775,7 @@
 		};
 		FE3FDE822688CEEB006644F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3B03D4CEAA78762C6887E5 /* Pods-PostcardsTiles-PostcardsTilesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +796,7 @@
 		};
 		FE3FDE832688CEEB006644F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67E7EF132A043AC478481F0 /* Pods-PostcardsTiles-PostcardsTilesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
